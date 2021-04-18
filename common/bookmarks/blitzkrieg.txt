@@ -57,9 +57,9 @@ bookmarks = {
 			history = GER_BLITZKRIEG_DESC
 			ideology = fascism
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_15
+				GER_victors_of_the_second_world_war
+				GER_internal_rivalries
+				GER_dreams_of_a_thousand_year_reich
 				GER_autarky_idea
 			}
 			focuses = {
