@@ -60,10 +60,16 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.6.9"
+	election_frequency = 7
+	elections_allowed = no
+}
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	neutrality = 80
+	fascism = 15
+	communism = 5
 }
 
 create_country_leader = {
