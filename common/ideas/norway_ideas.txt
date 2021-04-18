@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		milorg_idea = {
+			picture = milorg_idea_img
+			
+			allowed = {
+				tag = NOR
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor  = -0.20
+				political_power_gain = -0.10
+			}
+		}
+	}
+}

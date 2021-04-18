@@ -1,0 +1,22 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1960 2016 5060 8052 8084 10739 10795 10827 10851 
+	}
+	manpower=2698533
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

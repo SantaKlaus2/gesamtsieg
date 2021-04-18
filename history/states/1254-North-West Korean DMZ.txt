@@ -1,0 +1,20 @@
+state={
+	id=1254
+	name="STATE_1254"
+	
+	state_category = enclave
+	
+	history={
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 3
+			
+		}
+	}
+	provinces={
+		1003 4107 13433 
+	}
+	manpower=136648
+	buildings_max_level_factor=1.000
+}

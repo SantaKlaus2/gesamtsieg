@@ -1,0 +1,35 @@
+ideas = {
+
+	country = {
+		king_leopold_iii = {
+			
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+					has_government = fascism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = BEL
+						has_government = democratic 
+						NOT = {
+							tag = ROOT
+						}
+					}
+				}
+			}
+			
+			picture = king_leopold_iii
+
+			removal_cost = -1
+			
+			traits = { popular_figurehead }
+			
+
+		}
+	}
+}

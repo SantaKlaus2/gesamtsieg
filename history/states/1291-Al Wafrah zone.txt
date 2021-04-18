@@ -1,0 +1,23 @@
+state={
+	id=1291
+	name="STATE_1291"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KUW
+		set_demilitarized_zone = yes
+
+	}
+	
+	provinces={
+		13503 
+	}
+	manpower=81042
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
+

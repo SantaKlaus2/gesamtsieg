@@ -1,0 +1,23 @@
+state={
+	id=1205
+	name="STATE_1205"
+	
+	state_category = rural
+	
+	history={
+		owner = RKO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = RKO
+	}
+	
+	provinces={
+		6340 11391 13380 13381 
+	}
+	manpower=735089
+	buildings_max_level_factor=1.000
+}

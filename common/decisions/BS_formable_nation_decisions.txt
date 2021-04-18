@@ -1,0 +1,1044 @@
+form_north_german_confederation_category = {
+
+	form_north_german_confederation = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			tag = PRE
+		}
+
+		available = {
+			controls_state = 792
+			controls_state = 979
+			controls_state = 56
+			controls_state = 794
+			controls_state = 763
+			controls_state = 5
+			controls_state = 67
+			controls_state = 803
+			controls_state = 802
+			controls_state = 801
+			controls_state = 66
+			controls_state = 68
+			controls_state = 63
+			controls_state = 1112
+			controls_state = 797
+			controls_state = 62
+			controls_state = 64
+			controls_state = 1105
+			controls_state = 793
+			controls_state = 796
+			controls_state = 58
+			controls_state = 59
+			controls_state = 60
+			controls_state = 55
+			controls_state = 57
+			controls_state = 788
+			controls_state = 51
+			controls_state = 61
+			controls_state = 85
+			controls_state = 86
+			controls_state = 762
+			controls_state = 804
+			controls_state = 884
+			controls_state = 812
+		}
+
+		visible = {
+			tag = PRE
+			NOT = { has_global_flag = form_north_german_confederation_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NGC
+			85 = { add_core_of = ROOT }
+			86 = { add_core_of = ROOT }
+			762 = { add_core_of = ROOT }
+			61 = { add_core_of = ROOT }
+			804 = { add_core_of = ROOT }
+			884 = { add_core_of = ROOT }
+			812 = { add_core_of = ROOT }
+
+			hidden_effect = {
+				set_global_flag = form_north_german_confederation_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+form_confederate_states_category = {
+
+	form_confederate_states = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TEX
+		}
+
+		available = {
+			controls_state = 375
+			controls_state = 851
+			controls_state = 852
+			controls_state = 850
+			controls_state = 858
+			controls_state = 371
+			controls_state = 845
+			controls_state = 370
+			controls_state = 367
+			controls_state = 365
+			controls_state = 366
+			controls_state = 364
+			controls_state = 372
+			controls_state = 368
+			controls_state = 363
+			controls_state = 362
+		}
+
+		visible = {
+			tag = TEX
+			NOT = { has_global_flag = glory_of_csa }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = TEX_CSA
+			375 = { add_core_of = ROOT }
+			851 = { add_core_of = ROOT }
+			852 = { add_core_of = ROOT }
+			850 = { add_core_of = ROOT }
+			858 = { add_core_of = ROOT }
+			371 = { add_core_of = ROOT }
+			845 = { add_core_of = ROOT }
+			370 = { add_core_of = ROOT }
+			367 = { add_core_of = ROOT }
+			365 = { add_core_of = ROOT }
+			366 = { add_core_of = ROOT }
+			364 = { add_core_of = ROOT }
+			372 = { add_core_of = ROOT }
+			368 = { add_core_of = ROOT }
+			363 = { add_core_of = ROOT }
+			362 = { add_core_of = ROOT }
+			843 = { add_core_of = ROOT }
+			369 = { add_core_of = ROOT }
+			374 = { add_core_of = ROOT }
+			849 = { add_core_of = ROOT }
+			1200 = { add_core_of = ROOT }
+			1199 = { add_core_of = ROOT }
+			1195 = { add_core_of = ROOT }
+			
+			set_capital = 362
+
+			hidden_effect = {
+				set_global_flag = glory_of_csa
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
+
+form_east_africa_category = {
+	
+	form_east_africa = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = UGA
+				original_tag = KEN
+				original_tag = TZN
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Kenya
+			custom_trigger_tooltip = {
+				tooltip = form_country_kenya_required_states_tt
+				controls_state = 547
+				controls_state = 1284
+				controls_state = 1285
+				controls_state = 1286
+				controls_state = 1287
+			}
+			# Tanzania
+			custom_trigger_tooltip = {
+				tooltip = form_country_tanzania_required_states_tt
+				controls_state = 546
+				controls_state = 1289
+			}
+			# Uganda
+			custom_trigger_tooltip = {
+				tooltip = form_country_uganda_required_states_tt
+				controls_state = 548
+				controls_state = 1197
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = UGA
+				original_tag = TZN
+				original_tag = KEN
+			}
+			NOT = { has_global_flag = form_east_africa_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = EAF_UNIFIED
+			# Kenya
+			custom_effect_tooltip = form_country_kenya_coring_states_tt
+			hidden_effect = {
+				547 = { add_core_of = ROOT }
+				1284 = { add_core_of = ROOT }
+				1285 = { add_core_of = ROOT }
+				1286 = { add_core_of = ROOT }
+				1287 = { add_core_of = ROOT }
+			}
+			# Tanzania
+			custom_effect_tooltip = form_country_tanzania_coring_states_tt
+			hidden_effect = {
+				546 = { add_core_of = ROOT }
+				1289 = { add_core_of = ROOT }
+			}
+			# Uganda
+			custom_effect_tooltip = form_country_uganda_coring_states_tt
+			hidden_effect = {
+				548 = { add_core_of = ROOT }
+				1197 = { add_core_of = ROOT }
+			}
+			
+			hidden_effect = {
+				set_global_flag = form_east_africa_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_ruanda_urundi = {
+
+		allowed = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_rwanda_required_states_tt
+				controls_state = 768
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_burundi_required_states_tt
+				controls_state = 769
+			}
+			custom_trigger_tooltip = {
+                tooltip = form_east_africa_required
+			    has_cosmetic_tag = EAF_UNIFIED
+            }
+		}
+
+		visible = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = form_country_rwanda_coring_states_tt
+			hidden_effect = {
+				768 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_burundi_coring_states_tt
+			hidden_effect = {
+				769 = { add_core_of = ROOT }
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	integrate_south_sudan = {
+
+		allowed = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_south_sudan_required_states_tt
+				controls_state = 1187
+				controls_state = 1282
+				controls_state = 1283
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_lado_required_states_tt
+				controls_state = 1196
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_east_africa_required
+				has_cosmetic_tag = EAF_UNIFIED
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			1187 = { add_core_of = ROOT }
+			1196 = { add_core_of = ROOT }
+			1282 = { add_core_of = ROOT }
+			1283 = { add_core_of = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_abyssinia_category = {
+	
+	form_abyssinia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Eritrea
+			custom_trigger_tooltip = {
+				tooltip = form_country_eritrea_required_states_tt
+				controls_state = 550
+				
+				}
+			}
+		
+
+		visible = {
+			OR = {
+			original_tag = ETH
+			}
+			NOT = { has_global_flag = form_abyssinia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ABY_UNIFIED
+			custom_effect_tooltip = form_country_eritrea_coring_states_tt
+			hidden_effect = {
+				550 = { add_core_of = ROOT }
+			}			
+			hidden_effect = {
+				set_global_flag = form_abyssinia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	start_integrate_somalia = {
+
+		allowed = {
+			original_tag = ETH
+		}
+
+		icon = generic_political_discourse
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_country_somalia_required_states_tt
+				controls_state = 1088
+				controls_state = 559
+				controls_state = 1087
+				}
+			}
+			visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+				}
+			}
+
+			fire_only_once = yes
+
+			complete_effect = {
+				custom_effect_tooltip = form_country_somalia_claiming_states_tt
+				hidden_effect = {
+				1088 = { add_claim_by = ROOT }
+				559 = { add_claim_by = ROOT }
+				1087 = { add_claim_by = ROOT }
+				1088 = { add_compliance = 25 }
+				559 = { add_compliance = 25 }
+				1087 = { add_compliance = 25 }
+			}
+			hidden_effect = {
+				set_global_flag = start_integrate_somalia_flag
+			}
+		}
+	}
+
+	integrate_somaliland = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_country_somaliland_required_states_tt
+				controls_state = 268
+				controls_state = 269
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_somaliland_coring_states_tt
+			hidden_effect = {
+				268 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_somaliland_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_somalia = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_somalia_required_states_tt
+				controls_state = 1088
+				controls_state = 1087
+				controls_state = 559
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					core_compliance = {
+    				occupied_country_tag = SOM
+    				value > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = start_integrate_somalia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_somalia_coring_states_tt
+			1088 = { add_core_of = ROOT }
+			559 = { add_core_of = ROOT }
+			1087 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_somalia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_kenya = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_eth_kenya_required_states_tt
+				controls_state = 1287
+				controls_state = 1286
+				controls_state = 1285
+				controls_state = 1284
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					1284 = {
+					compliance > 70
+					}
+					1285 = {
+					compliance > 70
+					}
+					1286 = {
+					compliance > 70
+					}
+					1287 = {
+					compliance > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_eth_kenya_coring_states_tt
+			1284 = { add_core_of = ROOT }
+			1285 = { add_core_of = ROOT }
+			1286 = { add_core_of = ROOT }
+			1287 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_kenya_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_sudan = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_eth_sudan_required_states_tt
+				controls_state = 1280
+				controls_state = 1281
+				controls_state = 1282
+				controls_state = 1283
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					1280 = {
+					compliance > 70
+					}
+					1281 = {
+					compliance > 70
+					}
+					1282 = {
+					compliance > 70
+					}
+					1283 = {
+					compliance > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_eth_sudan_coring_states_tt
+			1280 = { add_core_of = ROOT }
+			1281 = { add_core_of = ROOT }
+			1282 = { add_core_of = ROOT }
+			1283 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_eth_sudan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+generic_formables_category = {
+
+	form_east_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			controls_state = 64 #East Berlin
+		}
+
+		visible = {
+			NOT = { original_tag = GER }
+			NOT = { original_tag = DDR }
+			NOT = { original_tag = WGR }
+			NOT = { has_global_flag = DDR_formed }
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+			controls_state = 64			
+		}
+
+		complete_effect = {
+			set_global_flag = DDR_formed
+			60 = { add_core_of = DDR }
+			61 = { add_core_of = DDR }
+			64 = { add_core_of = DDR }
+			65 = { add_core_of = DDR }
+			62 = { add_core_of = DDR }
+			795 = { add_core_of = DDR }
+			793 = { add_core_of = DDR }
+			794 = { add_core_of = DDR }	
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				tag = SOV
+				has_government = communism
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	unite_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			AND = {
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { original_tag = DDR }
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_overlord_tt
+						DDR = { is_puppet_of = ROOT }
+						61 = { is_controlled_by_ROOT_or_subject = yes }
+						62 = { is_controlled_by_ROOT_or_subject = yes }
+						64 = { is_controlled_by_ROOT_or_subject = yes }
+						65 = { is_controlled_by_ROOT_or_subject = yes }
+						60 = { is_controlled_by_ROOT_or_subject = yes }
+						59 = { is_controlled_by_ROOT_or_subject = yes }
+						58 = { is_controlled_by_ROOT_or_subject = yes }
+						56 = { is_controlled_by_ROOT_or_subject = yes }
+						57 = { is_controlled_by_ROOT_or_subject = yes }
+						55 = { is_controlled_by_ROOT_or_subject = yes }
+						51 = { is_controlled_by_ROOT_or_subject = yes }
+						42 = { is_controlled_by_ROOT_or_subject = yes }
+						54 = { is_controlled_by_ROOT_or_subject = yes }
+						50 = { is_controlled_by_ROOT_or_subject = yes }
+						53 = { is_controlled_by_ROOT_or_subject = yes }
+						52 = { is_controlled_by_ROOT_or_subject = yes }
+						979 = { is_controlled_by_ROOT_or_subject = yes }
+						788 = { is_controlled_by_ROOT_or_subject = yes }
+						789 = { is_controlled_by_ROOT_or_subject = yes }
+						792 = { is_controlled_by_ROOT_or_subject = yes }
+						791 = { is_controlled_by_ROOT_or_subject = yes }
+						799 = { is_controlled_by_ROOT_or_subject = yes }
+						798 = { is_controlled_by_ROOT_or_subject = yes }
+						800 = { is_controlled_by_ROOT_or_subject = yes }
+						796 = { is_controlled_by_ROOT_or_subject = yes }
+						793 = { is_controlled_by_ROOT_or_subject = yes }
+						795 = { is_controlled_by_ROOT_or_subject = yes }
+						794 = { is_controlled_by_ROOT_or_subject = yes }
+						1105 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { original_tag = WGR }
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_overlord_tt
+						WGR = { is_puppet_of = ROOT }
+						61 = { is_controlled_by_ROOT_or_subject = yes }
+						62 = { is_controlled_by_ROOT_or_subject = yes }
+						64 = { is_controlled_by_ROOT_or_subject = yes }
+						65 = { is_controlled_by_ROOT_or_subject = yes }
+						60 = { is_controlled_by_ROOT_or_subject = yes }
+						59 = { is_controlled_by_ROOT_or_subject = yes }
+						58 = { is_controlled_by_ROOT_or_subject = yes }
+						56 = { is_controlled_by_ROOT_or_subject = yes }
+						57 = { is_controlled_by_ROOT_or_subject = yes }
+						55 = { is_controlled_by_ROOT_or_subject = yes }
+						51 = { is_controlled_by_ROOT_or_subject = yes }
+						42 = { is_controlled_by_ROOT_or_subject = yes }
+						54 = { is_controlled_by_ROOT_or_subject = yes }
+						50 = { is_controlled_by_ROOT_or_subject = yes }
+						53 = { is_controlled_by_ROOT_or_subject = yes }
+						52 = { is_controlled_by_ROOT_or_subject = yes }
+						979 = { is_controlled_by_ROOT_or_subject = yes }
+						788 = { is_controlled_by_ROOT_or_subject = yes }
+						789 = { is_controlled_by_ROOT_or_subject = yes }
+						792 = { is_controlled_by_ROOT_or_subject = yes }
+						791 = { is_controlled_by_ROOT_or_subject = yes }
+						799 = { is_controlled_by_ROOT_or_subject = yes }
+						798 = { is_controlled_by_ROOT_or_subject = yes }
+						800 = { is_controlled_by_ROOT_or_subject = yes }
+						796 = { is_controlled_by_ROOT_or_subject = yes }
+						793 = { is_controlled_by_ROOT_or_subject = yes }
+						795 = { is_controlled_by_ROOT_or_subject = yes }
+						794 = { is_controlled_by_ROOT_or_subject = yes }
+						1105 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							original_tag = DDR
+							original_tag = WGR
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_subject_tt
+						61 = { is_controlled_by_ROOT_or_ally = yes }
+						62 = { is_controlled_by_ROOT_or_ally = yes }
+						64 = { is_controlled_by_ROOT_or_ally = yes }
+						65 = { is_controlled_by_ROOT_or_ally = yes }
+						60 = { is_controlled_by_ROOT_or_ally = yes }
+						59 = { is_controlled_by_ROOT_or_ally = yes }
+						58 = { is_controlled_by_ROOT_or_ally = yes }
+						56 = { is_controlled_by_ROOT_or_ally = yes }
+						57 = { is_controlled_by_ROOT_or_ally = yes }
+						55 = { is_controlled_by_ROOT_or_ally = yes }
+						51 = { is_controlled_by_ROOT_or_ally = yes }
+						42 = { is_controlled_by_ROOT_or_ally = yes }
+						54 = { is_controlled_by_ROOT_or_ally = yes }
+						50 = { is_controlled_by_ROOT_or_ally = yes }
+						53 = { is_controlled_by_ROOT_or_ally = yes }
+						52 = { is_controlled_by_ROOT_or_ally = yes }
+						979 = { is_controlled_by_ROOT_or_ally = yes }
+						788 = { is_controlled_by_ROOT_or_ally = yes }
+						789 = { is_controlled_by_ROOT_or_ally = yes }
+						792 = { is_controlled_by_ROOT_or_ally = yes }
+						791 = { is_controlled_by_ROOT_or_ally = yes }
+						799 = { is_controlled_by_ROOT_or_ally = yes }
+						798 = { is_controlled_by_ROOT_or_ally = yes }
+						800 = { is_controlled_by_ROOT_or_ally = yes }
+						796 = { is_controlled_by_ROOT_or_ally = yes }
+						793 = { is_controlled_by_ROOT_or_ally = yes }
+						795 = { is_controlled_by_ROOT_or_ally = yes }
+						794 = { is_controlled_by_ROOT_or_ally = yes }
+						1105 = { is_controlled_by_ROOT_or_ally = yes }
+					}
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				DDR = { is_puppet_of = ROOT }
+				WGR = { is_puppet_of = ROOT }
+				original_tag = DDR
+				original_tag = WGR
+			}
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					every_state = {
+						if = {
+							limit = { is_core_of = WGR }
+							remove_core_of = WGR
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					every_state = {
+						if = {
+							limit = { is_core_of = DDR }
+							remove_core_of = DDR
+						}
+					}
+				}
+				every_state = {
+					if = {
+						limit = { is_core_of = GER }
+						remove_core_of = GER
+					}
+				}
+				set_global_flag = form_germany_united
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				custom_effect_tooltip = form_united_germany_communism_tt
+				hidden_effect = {
+					51 = { add_core_of = DDR }
+					42 = { add_core_of = DDR }
+					56 = { add_core_of = DDR }
+					57 = { add_core_of = DDR }
+					55 = { add_core_of = DDR }
+					50 = { add_core_of = DDR }
+					59 = { add_core_of = DDR }
+					58 = { add_core_of = DDR }
+					54 = { add_core_of = DDR }
+					52 = { add_core_of = DDR }
+					53 = { add_core_of = DDR }
+					979 = { add_core_of = DDR }
+					788 = { add_core_of = DDR }
+					789 = { add_core_of = DDR }
+					792 = { add_core_of = DDR }
+					791 = { add_core_of = DDR }
+					799 = { add_core_of = DDR }
+					798 = { add_core_of = DDR }
+					800 = { add_core_of = DDR }
+					796 = { add_core_of = DDR }
+					1105 = { add_core_of = DDR }
+					790 = { add_core_of = DDR }
+					DDR = { transfer_state = 51 }
+					DDR = { transfer_state = 42 }
+					DDR = { transfer_state = 56 }
+					DDR = { transfer_state = 57 }
+					DDR = { transfer_state = 55 }
+					DDR = { transfer_state = 50 }
+					DDR = { transfer_state = 59 }
+					DDR = { transfer_state = 58 }
+					DDR = { transfer_state = 54 }
+					DDR = { transfer_state = 52 }
+					DDR = { transfer_state = 53 }
+					DDR = { transfer_state = 979 }
+					DDR = { transfer_state = 788 }
+					DDR = { transfer_state = 789 }
+					DDR = { transfer_state = 792 }
+					DDR = { transfer_state = 791 }
+					DDR = { transfer_state = 799 }
+					DDR = { transfer_state = 798 }
+					DDR = { transfer_state = 800 }
+					DDR = { transfer_state = 796 }
+					DDR = { transfer_state = 1105 }
+					DDR = { transfer_state = 790 }
+					DDR = { set_capital = 1105 }
+				}
+			}
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				custom_effect_tooltip = form_united_germany_democratic_tt
+				hidden_effect = {
+					60 = { add_core_of = WGR }
+					61 = { add_core_of = WGR }
+					64 = { add_core_of = WGR }
+					65 = { add_core_of = WGR }
+					62 = { add_core_of = WGR }
+					795 = { add_core_of = WGR }
+					793 = { add_core_of = WGR }
+					794 = { add_core_of = WGR }	
+					WGR = { transfer_state = 60 }
+					WGR = { transfer_state = 61 }
+					WGR = { transfer_state = 64 }
+					WGR = { transfer_state = 65 }
+					WGR = { transfer_state = 62 }
+					WGR = { transfer_state = 795 }
+					WGR = { transfer_state = 793 }
+					WGR = { transfer_state = 794 }
+					WGR = { set_capital = 1105 }
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	form_west_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			controls_state = 55 #Frankfurt
+		}
+
+		visible = {
+			NOT = { original_tag = GER }
+			NOT = { original_tag = DDR }
+			NOT = { original_tag = WGR }
+			NOT = { has_global_flag = WGR_formed }
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+			controls_state = 55
+		}
+
+		complete_effect = {
+			set_global_flag = WGR_formed
+			51 = { add_core_of = WGR }
+			42 = { add_core_of = WGR }
+			56 = { add_core_of = WGR }
+			57 = { add_core_of = WGR }
+			55 = { add_core_of = WGR }
+			50 = { add_core_of = WGR }
+			59 = { add_core_of = WGR }
+			58 = { add_core_of = WGR }
+			54 = { add_core_of = WGR }
+			52 = { add_core_of = WGR }
+			53 = { add_core_of = WGR }
+			979 = { add_core_of = WGR }
+			788 = { add_core_of = WGR }
+			789 = { add_core_of = WGR }
+			792 = { add_core_of = WGR }
+			791 = { add_core_of = WGR }
+			799 = { add_core_of = WGR }
+			798 = { add_core_of = WGR }
+			800 = { add_core_of = WGR }
+			796 = { add_core_of = WGR }
+			1105 = { add_core_of = WGR }
+			790 = { add_core_of = WGR }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				has_government = democratic
+				country_exists = { original_tag = DDR }
+			}
+		}
+	}
+}

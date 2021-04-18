@@ -1,0 +1,21 @@
+state={
+	id=1184
+	name="STATE_1184"
+
+	history={
+		owner = GFN
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		3560 
+	}
+	manpower=115100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

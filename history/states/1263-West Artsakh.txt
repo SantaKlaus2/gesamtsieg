@@ -1,0 +1,22 @@
+
+state={
+	id=1263
+	name="STATE_1263"
+	
+	history={
+		owner = ARM
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ARM
+
+	}
+	
+	provinces={
+		1467 9715 
+	}
+	manpower=40001
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

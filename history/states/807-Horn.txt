@@ -1,0 +1,22 @@
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = AUS
+		add_core_of = GER
+
+	}
+
+	provinces={
+		732 3718 6552 6723 6739 9527 
+	}
+	manpower=530420
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

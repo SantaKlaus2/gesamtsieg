@@ -1,0 +1,241 @@
+﻿l_english:
+
+ #Vanilla Fix
+ form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
+ form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"
+ form_country_yemen_required_states_tt:0 "Controls all §YYemeni§! states."
+ form_country_yemen_coring_states_tt:0 "Gain cores on all §YYemeni§! states.\n"
+ 
+ GER_reichskommissariat_moskowien:0 "Reichskommissariat Moskowien"
+ GER_reichskommissariat_kaukasus:0 "Reichskommissariat Kaukasus"
+ GER_reichskommissariat_turkestan:0 "Reichskommissariat Turkestan"
+ GER_reichskommissariat_ostsibirien:0 "Reichskommissariat Ostsibirien"
+ GER_reichskommissariat_westsibirien:0 "Reichskommissariat Westsibirien"
+ GER_reichsprotektorat_bohmen_und_mahren:0 "Reichsprotektorat Böhmen-Mähren"
+ GER_generalgouvernement:0 "Generalgouvernement"
+ 
+ CHI_communist_infiltration_state_1027:0 " [1027.GetName][1027.GetCommaIfMoreInfiltration]"
+
+ #Reichsprotektorat
+ GER_form_the_reichsprotektorat:0 "Form the Reichsprotektorat"
+ GER_form_the_reichsprotektorat_desc:0 "To improve use of local resources, industry, and manpower, we should look into establishing quasi-autonomous subject government in our conquered areas."
+ GER_reichsprotektorat:0 "Reichsprotektorat"
+ GER_reichsprotektorat_desc:0 "Enables creation of certain Reichsprotektorat subjects out of controlled territory."
+ 
+ #Burgenland Question
+ HUN_burgenland_question:0 "Request Burgenland from Germany"
+ HUN_burgenland_question_desc:0 "Burgenland is our rightful territory. We were made to lose this region in 1921 through a dubious general election. But now that Germany controls this region, perhaps they could be persuaded to give it to us..."
+ 
+ #Separate Burma
+ BS_colony_politic_category:0 "Separate Burma"
+ BS_colony_politic_category_desc:0 "We can grant a new constitution calling for a fully elected assembly, with many powers given to the Burmese."
+ ENG_separate_burma:0 "Separate Burma from India"
+
+ #All
+ BS_request_territoy_category:0 "Request territory"
+ 
+ #Operation Achse
+ GER_operation_achse_category:0 "Operation Achse"
+ GER_operation_achse_category_desc:0 "Under support of King Victor Emmanuel III, Italians overthrew and arrested Mussolini. Furthermore, they have left us and have approached the Allies. We need to take action to resolve this situation."
+ GER_operation_achse:0 "Operation Achse"
+ 
+ #Burgundy
+ GER_ss_staat_burgund:0 "Form the SS-Staat Burgund"
+ GER_ss_staat_burgund_desc:0 "Heinrich Himmler, leader of the Schutzstaffel, has proposed forming SS-Staat Burgund. Heinrich Himmler has said 'Burgundy is an ancient economic and cultural center, and would be easier to control separate from France.'"
+ GER_expand_bgn_southf:0 "Expand Burgundy into southern France"
+ GER_expand_bgn_savoy:0 "Expand Burgundy into Savoie"
+ GER_expand_bgn_medi:0 "Grant Burgundy territory with access to the Mediterranean"
+ GER_expand_bgn_channel:0 "Grant Burgundy territory with access to the English Channel"
+ GER_expand_bgn_calais:0 "Expand Burgundy into Calais"
+ GER_expand_bgn_bnfcalais:0 "Expand Burgundy into Belgian Calais"
+ GER_expand_bgn_wal:0 "Expand Burgundy into Wallonia"
+ GER_expand_bgn_bnfwal:0 "Expand Burgundy into Belgian Wallonia"
+ GER_expand_bgn_bel:0 "Fully incoorporate Belgium into Burgundy"
+ GER_expand_bgn_bnfbel:0 "Fully incoorporate Belgium into Burgundy"
+ GER_expand_bgn_par:0 "Expand Burgundy into Île-de-France"
+ GER_expand_bgn_nor:0 "Expand Burgundy into Normandy"
+ GER_expand_bgn_swiss:0 "Expand Burgundy into western Switzerland"
+ GER_expand_bgn_haute:0 "Expand Burgundy into Haute-Savoie"
+
+ #New name of cities
+ BS_new_name_of_cities_category:0 "New Names for our Cities"
+ BS_new_name_of_cities_category_desc:0 "Some cities which we have occupied have politically-significant names given by their previous controllers. Now that these cities are in our hands, we can give the cities new, less-contentious names."
+ BS_new_name_of_leningrad:0 "New name for [195.GetName]"
+ BS_new_name_of_stalingrad:0 "New name for [217.GetName]"
+ 
+ #North German Confederation
+ form_north_german_confederation_category:0 "Revive the North German Confederation"
+ form_north_german_confederation_category_desc:0 "Reunite North Germany and revive the North German Confederation."
+ form_north_german_confederation:0 "Revive the North German Confederation"
+ 
+ #Invade Monaco
+ BS_invade_monaco_category:0 "Invade Monaco"
+ BS_invade_monaco_category_desc:0 "As a very tiny country, Monaco is surrounded by our troops. Some people have started saying they have potential to became a base for our enemies. They are very weak so we can defeat them easily and nullify the threat."
+ BS_invade_monaco:0 "Invade Monaco"
+ 
+ #Form Confederate States
+ form_confederate_states_category:0 "Glory of the Confederate States"
+ form_confederate_states_category_desc:0 "Our glorious country, Confederate States of America, will be reborn, and we will never lose again."
+ form_confederate_states:0 "Glory of the Confederate States"
+ 
+ #Transfer territories
+ BS_transfer_territories_category:0 "Transfer territories"
+ BS_transfer_territories_category_desc:0 "We don't have to keep own all occupied territories. rather cede the lands to our allies or puppets could be better."
+ GER_eastern_poland:0 "Eastern Poland to Generalgouvernement"
+ GER_transnistria_romania:0 "Transnistria to Romania"
+ GER_east_karelia_filand:0 "East Karelia to Finland"
+ GER_expand_ostland:0 "Expand Ostland"
+ GER_expand_ukraine:0 "Expand Ukraine"
+ GER_transfer_crimea:0 "Crimea to Ukraine"
+ GER_transfer_far_eastern_holdings:0 "Outer Manchuria and Far Eastern Provinces to Japan"
+
+
+ #Jewish State 
+ BS_jews_country_category:0 "Question of Jewish state"
+ BS_jews_country_category_desc:0 "Past thousands years, many countries and historians have trying to establish Jewish state. Jewish will be helpful for developing undeveloped region. Natives might be  opposition to establishing Jewish state in their lands. However after do this, they will finger at each other, not us. which place is suitable?"
+ BS_jews_alaska:0 "Alaska"
+ BS_jews_guiana:0 "Guiana"
+ BS_jews_madagascar:0 "Madagascar" #Germany only
+ BS_jews_palestine:0 "Palestine"
+ BS_jews_uganda:0 "Uganda"
+
+ #Mittelafrika
+ GER_mittelafrika_plan_category:0 "Mittelafrika"
+ GER_mittelafrika_plan_category_desc:0 "Before the Great War, we had imagined the huge African colony which would spann from Kameroon to Tanganyika. Although we had to give the idea up, we now control most of Africa. It is time to accomplish our dream."
+ GER_form_the_mittelafrika:0 "Form Mittelafrika"
+ GER_equatorial_guinea_mta:0 "Equatorial Guinea to Mittelafrika"
+ GER_portugal_mta:0 "Portoguese colonies to Mittelafrika"
+ GER_namibia_mta:0 "Namibia to Mittelafrika"
+ GER_south_africa_mta:0 "South Africa to Mittelafrika"
+ GER_madagascar_mta:0 "Madagascar to Mittelafrika"
+ GER_west_africa_one_mta:0 "Subsaharan Western Africa to Mittelafrika"
+ GER_liberia_mta:0 "Liberia to Mittelafrika"
+ GER_ethiopia_mta:0 "Ethiopia to Mittelafrika"
+ GER_west_africa_two_mta:0 "West Africa to Reichskolonie Afrika"
+ GER_egypt_mta:0 "Egypt and Sudan to Reichskolonie Afrika"
+ GER_libya_mta:0 "Libya to Reichskolonie Afrika"
+ 
+ #German American Bund
+ GER_german_american_bund_category:0 "German American Bund"
+ GER_german_american_bund_category_desc:0 "German American Bund is pro-Nazi organization established in 1936 to succeed Friends of New Germany. We may could use them as leverage to conquer America."
+ GER_german_american_bund:0 "Support German American Bund"
+ bund_militia_raise:0 "§Y5 Bund Militia will be raise.§!"
+ 
+ #German Empire Nano states; Nordschleswig, Eupen-Malmedy, Hlucin
+ BS_german_empire_territory_cateogry:0 "Reclaiming the Empire"
+ BS_integrate_eupen:0 "Reintegrate Eupen-Malmedy"
+ BS_integrate_schleswig:0 "Reintegrate Nordschleswig"
+ BS_integrate_hlucin:0 "Reintegrate Hultschin"
+ 
+ #Demand Old territory of German Empire
+ BS_demand_old_empire_territory_category:0 "Territories of the Empire"
+ BS_demand_eupen:0 "Demand Eupen-Malmedy"
+ BS_demand_schleswig:0 "Demand Nordshleswig"
+ BS_demand_hlucin:0 "Demand Hultschin"
+ 
+ #Golden Gate Bridge
+ BS_golden_gate_bridge_category:0 "Golden Gate Bridge"
+ BS_golden_gate_bridge_category_desc:0 "Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San Francisco, California-the northern tip of the San Francisco Peninsula-to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait."
+ BS_golden_gate_bridge:0 "Construction of the Bridge"
+ golden_gate_bridge_tt:0 "§GYou'll able to cross the Golden Gate Strait.§!" 
+ 
+ #East African Federation
+ form_east_africa_category:0 "Uniting East Africa"
+ form_east_africa_category_desc:0 "Strangely, there seem to be no one of importance who do not advocate for a §YUnited East Africa§!. The Europeans want regional stability for easier trade in our ports and we ourselves want a better economy and greater solidarity and protection against outside threats. The Europeans have so far done nothing; now it is time to take matters into our own hands."
+ form_east_africa:0 "Unite East Africa!"
+ form_east_africa_required:0 "East Africa must be formed first."
+ 
+ form_country_kenya_coring_states_tt:0 "Gain cores on all §YKenyan§! states."
+ form_country_kenya_required_states_tt:0 "Controls all §YKenyan§! states."
+ form_country_tanzania_coring_states_tt:0 "Gain cores on all §YTanzanian§! states."
+ form_country_tanzania_required_states_tt:0 "Controlls all §YTanzanian§! states."
+ form_country_burundi_coring_states_tt:0 "Gain cores on all §YBurundian§! states."
+ form_country_burundi_required_states_tt:0 "Controlls all §YBurundian§! states."
+ form_country_rwanda_coring_states_tt:0 "Gain cores on all §YRwandan§! states."
+ form_country_rwanda_required_states_tt:0 "Controlls all §YRwandan§! states."
+ form_country_uganda_coring_states_tt:0 "Gain cores on all §YUgandan§! states."
+ form_country_uganda_required_states_tt:0 "Controlls all §YUgandan§! states." 
+ integrate_ruanda_urundi:0 "Integrate the Ruanda-Urundi"
+ integrate_ruanda_urundi_desc:0 "Ruanda-Urundi is part of East Africa, despite them being under a different colonial administration than ourselves. As they are part of East Africa, we shall now grant them the citizenship that is their birthright."
+ form_country_rwanda_required_states_tt:0 "Controls all of §YRwanda§!."
+ form_country_burundi_required_states_tt:0 "Controls all of §YBurundi§!."
+ form_country_rwanda_coring_states_tt:0 "Gain cores on §YRwanda§!.\n"
+ form_country_burundi_coring_states_tt:0 "Gain cores on §YBurundi§!.\n"
+ integrate_south_sudan:0 "Integrate South Sudan"
+ integrate_south_sudan_desc:0 "The culture of south Sudan is much more similar to our own than to arab-aligned peoples to the north of them. Like us, southern Sudan is also Christian, and their climate and geography is similar to our own. It is obvious that we are destined to be united and now we have the chance!"
+ form_country_south_sudan_required_states_tt:0 "Controls §YSouth Sudan§!."
+ form_country_lado_required_states_tt:0 "Controlls §YLado§!."
+
+ #Abyssinia
+ form_abyssinia_category:0 "The Legacy of Solomon"
+ form_abyssinia_category_desc:0 "We have beat the Italians before and we can beat them again. Once we chase them off the mainland, we will be able integrate their former colonies and finally and live up to the legacy of King Solomon."
+ form_abyssinia:0 "Re-Integrate Eritrea"
+ form_abyssinia_desc:0 "Re-integrating Eritrea will be the first step in our quest to bring about a greater Ethiopia. After this is done, we will proclaim §YAbyssinia§!!"
+ form_abyssinia_required:0 "Abyssinia must be formed first."
+ form_country_eritrea_required_states_tt:0 "Controlls all of §YEritrea§!."
+ form_country_eritrea_coring_states_tt:0 "Gain cores on §YEritrea§!."
+ 
+ integrate_sudan:0 "Integrate §YEast Sudan§!."
+ integrate_sudan_desc:0 "The integration of Sudanese territory will further enrich our empire."
+ form_country_eth_sudan_required_states_tt:0 "Controls §YEast Sudan§!."
+ form_country_eth_sudan_coring_states_tt:0 "Gain cores on §YEast Sudan§!."
+ 
+ integrate_kenya:0 "Integrate §YEast Kenya§!."
+ integrate_kenya_desc:0 "The acquisition of Kenyan land puts us closer towards the realization of §YGreater Abyssinia§!."
+ form_country_eth_kenya_required_states_tt:0 "Controls east §YKenyan§! states."
+ form_country_eth_kenya_coring_states_tt:0 "Gain cores on east §YKenyan§! states."
+ 
+ integrate_somaliland:0 "Integrate §YNorthern Somaliland§!."
+ integrate_somaliland_desc:0 "We will take pride in protecting the Abyssinians of Djibouti and Berbera."
+ form_country_somaliland_required_states_tt:0 "Controlls §YFrench Somaliland§! and §YBritish Somaliland§!."
+ form_country_somaliland_coring_states_tt:0 "Gain cores on all of §YNorthern Somaliland§!."
+ 
+
+ integrate_somalia:0 "Integrate §YSouthern Somaliland§!."
+ integrate_somalia_desc:0 "While a great challenge, we have now convinced the Somalis in Southern Somaliland, that they are Abyssinians just like us. Mogadishu is now as Abyssinian as Addis Ababa!"
+ start_integrate_somalia:0 "Begin Integrating §YSouthern Somaliland§!."
+ start_integrate_somalia_desc:0 "The Somalis in the former colony Italian Somaliland have suffered long enough under the Italian yoke. It will, however, take time for them to realise that the destiny of the Somalis is to be Abyssinian."
+ form_country_somalia_coring_states_tt:0 "Gain cores on all of §YSouthern Somaliland§!."
+
+ form_country_somalia_required_states_tt:0 "Controlls all of §YSouthern Somaliland§!."
+ form_country_somalia_claiming_states_tt:0 "We will begin an integration campaign in the formerly Italian territories in §YSouthern Somaliland§!."
+ form_country_somalia_coring_states_tt:0 "Gain cores on all of §YSouthern Somaliland§!."
+ 
+ #Expanding the Reich
+ expand_reich_category:0 "Expanding the Reich"
+ expand_reich_category_desc:0 "With the acquisition of new territories we can strengthen the Fatherland and expand our Lebensraum"
+ integrate_old_provinces:0 "Reintegrate the Old Provinces"
+ integrate_old_provinces_desc:0 "The provinces of Katowitz and Posen are rightfully a part of the German Reich"
+integrate_wartheland:0 "Germanization of Western Poland"
+integrate_wartheland_desc:0 "The occupied western Polish lands will be made into proper Reichsgau of the Fatherland"
+integrate_new_east_prussia:0 "Creation of Neuostpreußen"
+integrate_new_east_prussia_desc:0 "These eastern Polish lands will become the newest province of the kingdom of Prussia"
+integrate_nordschleswig:0 "Reintegrate Schleswig"
+integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was once a part of the Kaiserreich and the Danes are in no position to dispute it's reintegration into the Reich"
+
+ #Expanding the Soviet Union
+ expand_soviet_union_category:0 "Expanding the Soviet Union"
+ expand_soviet_union_category_desc:0 "The integration and reorganization of territory will allow us to secure new land and create buffer states between us and our enemies"
+ form_estonian_ssr:0 "Form the Estonian SSR"
+ form_latvian_ssr:0 "Form the Latvian SSR"
+ form_lithuanian_ssr:0 "Form the Lithuanian SSR"
+ new_soviet_romania_borders:0 "Draw new Soviet-Romanian Border"
+ curzon_line_a:0 "Curzon Line Treaty A"
+ curzon_line_b:0 "Curzon Line Treaty B"
+ form_eastern_poland_required:0 "Controls §YEastern Poland§! and has compliance of at least §Y70%§! in each state"
+ form_eastern_poland_cores:0 "Gains cores on §YEastern Poland§!"
+ poland_lose_eastern_poland_cores:0 "§YPoland§! loses cores on §YEastern Poland§!"
+ integrate_carpathian_ruthenia:0 "Integrate Carpathian Ruthenia"
+ integrate_kaliningrad:0 "Integrate Kaliningrad into the Russian SFSR"
+ new_finland_soviet_border:0 "Draw new Finland-Soviet Union Borders"
+ new_japan_soviet_border:0 " Draw new Soviet-Japan Border"
+ 
+ #Generic Formable Nations
+ generic_formables_category:0 "General Formable Nations"
+ form_east_germany:0 "Form East Germany"
+ form_west_germany:0 "Form West Germany"
+ unite_germany:0 "Unite Germany"
+ form_united_germany_overlord_tt:0 "§YGermany§! is controlled by §H[Root.GetNameDef]§! or their subjects"
+ form_united_germany_subject_tt:0 "§YGermany§! is controlled by §H[Root.GetNameDef]§! or their allies"
+ form_united_germany_communism_tt:0 "All §YGerman§! states are cored by the §YGermany Democratic Republic§! and transferred"
+ form_united_germany_democratic_tt:0 "All §YGerman§! states are cored by the §YFederal Republic of Germany§! and transferred"

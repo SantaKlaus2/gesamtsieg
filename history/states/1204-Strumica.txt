@@ -1,0 +1,26 @@
+state={
+    id=1204
+    name="STATE_1204"
+
+    history={
+        owner = BUL
+        
+        buildings = {
+            infrastructure = 3
+        }
+        add_core_of = BUL
+        add_core_of = MAC
+    }
+
+    provinces={
+        13315 
+    }
+    manpower= 11234
+    buildings_max_level_factor=1
+    state_category="pastoral"
+    
+    resources={
+        aluminium=2
+        chromium=4
+    }
+}

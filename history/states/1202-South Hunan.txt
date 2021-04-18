@@ -1,0 +1,30 @@
+state= {
+	id=1202
+	name="STATE_1202"
+	manpower = 2540000
+	state_category = town
+	resources={
+		tungsten=5 # was: 20
+		steel= 5 # was: 20
+		chromium = 1 # was: 4
+	}
+
+	history= {
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		1938.10.25 = {		
+			remove_core_of = GXC
+			owner = CHI			
+		}
+	}
+	provinces={
+		1120 9970 9997 10080 12014
+	}
+}

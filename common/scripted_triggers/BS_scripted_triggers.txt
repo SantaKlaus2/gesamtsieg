@@ -1,0 +1,155 @@
+
+is_German_country = {
+	OR = {
+		original_tag = GER
+		tag = WGR
+		tag = DDR
+		tag = DAN
+		tag = PRE
+		tag = AUS
+		tag = BAY
+		tag = WUR
+		tag = SAR
+		tag = BDN
+		tag = MEK
+		tag = RKK
+		tag = RKO
+		tag = RKM
+		tag = RKU
+		tag = RKW
+		tag = RKS
+		tag = NID
+		tag = NWG
+		tag = BNF
+		tag = PBM
+		tag = GGO
+		tag = SAX
+		tag = SHL
+		tag = HAN
+		tag = BGN
+	}
+}
+
+is_German_puppet = {
+	OR = {
+		is_puppet_of = GER
+		is_puppet_of = WGR
+		is_puppet_of = DDR
+		is_puppet_of = DAN
+		is_puppet_of = PRE
+		is_puppet_of = AUS
+		is_puppet_of = BAY
+		is_puppet_of = WUR
+		is_puppet_of = SAR
+		is_puppet_of = BDN
+		is_puppet_of = MEK
+		is_puppet_of = RKK
+		is_puppet_of = RKO
+		is_puppet_of = RKM
+		is_puppet_of = RKU
+		is_puppet_of = RKW
+		is_puppet_of = RKS
+		is_puppet_of = NID
+		is_puppet_of = NWG
+		is_puppet_of = BNF
+		is_puppet_of = PBM
+		is_puppet_of = GGO
+		is_puppet_of = SAX
+		is_puppet_of = SHL
+		is_puppet_of = HAN
+		is_puppet_of = BGN
+	}
+}
+
+is_German_speak = {
+	OR = {
+		is_German_country = yes
+		is_German_puppet = yes
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+}
+
+is_Polish_speak = {
+	original_tag = POL
+}
+
+is_Chinese_speak = {
+	OR = {
+		tag = CHI
+		tag = PRC
+		tag = XSM
+		tag = SIK
+		tag = GXC
+		tag = SHX
+		tag = MAN
+	}
+}
+
+is_Japanese_country = {
+	OR = {
+		original_tag = JAP
+		tag = RYU
+	}
+}
+
+is_Soviet_speak = {
+	OR = {
+		original_tag = SOV
+		tag = UKR
+		tag = BLR
+	}
+}
+
+is_Russian_speak = {
+	original_tag = SOV
+}
+
+is_Ukranian_speak = {
+	tag = UKR
+}
+
+is_Belarusian_speak = {
+	tag = BLR
+}
+
+is_Korean_speak = {
+	tag = KOR
+}
+
+is_Italian_speak = {
+	OR = {
+		original_tag = ITA
+		tag = KTS
+		tag = VEC
+	}
+}
+
+is_French_speak = {
+	OR = {
+		original_tag = FRA
+		tag = BRI
+		tag = OCC
+	}
+}
+
+is_Germany_divided = {
+	OR = {
+		AND = {
+			WGR = { controls_state = 1105 }
+			NOT = { WGR = { controls_state = 64 } }
+		}
+		AND = {
+			DDR = { controls_state = 64 }
+			NOT = { DDR = { controls_state = 1105 } }
+		}
+	}
+}
+
+is_France_divided = {
+	BGN = { controls_state = 16 }
+}
+
+is_France_united = {
+	country_exists = BGN
+	NOT = { BGN = { controls_state = 16 } }
+}

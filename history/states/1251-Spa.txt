@@ -1,0 +1,24 @@
+state={
+	id=1251
+	name="STATE_1251"
+	
+	state_category = enclave
+	
+	history={
+		owner = GER
+		victory_points = {
+			13237 1 
+		}
+		add_core_of = BEL
+		add_core_of = WLL
+		add_core_of = GER
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		13421 13237
+	}
+	manpower=8973
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=229
+	name="STATE_229"
+	resources={
+		oil=70.000
+	}
+
+	history={
+		owner = RKK
+		victory_points = {
+			7661 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			fuel_silo = 1
+			air_base = 1
+
+		}
+		add_core_of = RKK
+		add_core_of = AZR
+
+	}
+
+	provinces={
+		1536 4458 4477 4545 4614 6763 7495 7661 11645 
+	}
+	manpower=2470028
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

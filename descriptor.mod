@@ -1,0 +1,15 @@
+version="1.10.4"
+tags={
+	"Alternative History"
+	"Map"
+	"Gameplay"
+	"Events"
+	"National Focuses"
+	"Military"
+	"Technologies"
+	"Utilities"
+}
+name="Gesamtsieg"
+supported_version="1.10.4"
+replace_path="map"
+replace_path="history/states"

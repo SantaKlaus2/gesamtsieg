@@ -1,0 +1,43 @@
+state={
+	id=1116
+	name="STATE_1116"
+	resources={
+		chromium=45.000
+		steel=10.000
+	}
+
+	history={
+		add_claim_by = GRE
+		owner = TUR
+		victory_points = {
+			849 1 
+		}
+		victory_points = {
+			6895 3 
+		}
+		victory_points = {
+			11842 3
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = TUR
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus"}
+			set_demilitarized_zone = yes
+		}
+		
+		1936.11.9 = {
+			set_demilitarized_zone = no
+		}
+
+	}
+
+	provinces={
+		849 3879 6895 13321
+	}
+	manpower=200101
+	buildings_max_level_factor=1.000
+	state_category=town
+}
