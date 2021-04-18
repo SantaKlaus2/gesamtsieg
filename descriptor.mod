@@ -9,7 +9,7 @@ tags={
 	"Technologies"
 	"Utilities"
 }
-name="Gesamtsieg"
-supported_version="1.10.4"
 replace_path="map"
 replace_path="history/states"
+name="Gesamtsieg"
+supported_version="1.10.4"
