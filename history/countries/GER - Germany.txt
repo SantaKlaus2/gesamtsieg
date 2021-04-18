@@ -358,13 +358,13 @@ add_to_faction = GER
 
 
 add_ideas = {
-	sour_loser
-	general_staff
+	GER_victors_of_the_second_world_war
+	GER_internal_rivalries
+	GER_dreams_of_a_thousand_year_reich
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 
