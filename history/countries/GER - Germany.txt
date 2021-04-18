@@ -179,6 +179,24 @@ create_import = {
 		autonomous_state = autonomy_puppet
 	}
 	
+	set_autonomy = {
+		target = GFN
+		autonomous_state = autonomy_puppet
+	}
+	
+	set_autonomy = {
+		target = RKL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RKH
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RKB
+		autonomous_state = autonomy_puppet
+	}
+	
 	give_military_access = SLO
 
 #Trade
