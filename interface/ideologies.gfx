@@ -4,4 +4,12 @@ spriteTypes = {
 		name = "GFX_ideology_nazism"
 		textureFile = "gfx/interface/ideologies/nazism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism"
+		textureFile = "gfx/interface/ideologies/esoteric_nazism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_hardline_nazism"
+		textureFile = "gfx/interface/ideologies/hardline_nazism.dds"
+	}
 }

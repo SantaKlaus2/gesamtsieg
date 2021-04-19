@@ -53,13 +53,13 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	fascism = 100
 }
 
 create_country_leader = {
@@ -67,7 +67,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/TAN/portrait_tan_salchak_toka.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = hardline_nazism
 	traits = {
 		#
 	}
