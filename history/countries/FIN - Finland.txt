@@ -13,6 +13,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	sisu
+	FIN_underdeveloped_karelia
+	FIN_finland_victorious
 }
 
 set_technology = {
@@ -166,12 +169,6 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-
-
-add_ideas = {
-	sisu
 }
 
 create_field_marshal = {

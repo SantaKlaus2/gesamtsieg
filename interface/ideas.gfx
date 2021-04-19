@@ -1,0 +1,15 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_milorg_idea"
+		textureFile = "gfx/interface/ideas/milorg_idea_img.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_underdeveloped_karelia"
+		textureFile = "gfx/interface/ideas/underdeveloped_karelia.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_finland_victorious"
+		textureFile = "gfx/interface/ideas/underdeveloped_karelia.dds"
+	}
+}

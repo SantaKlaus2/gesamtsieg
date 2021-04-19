@@ -1,0 +1,51 @@
+ideas = {
+
+	country = {
+		FIN_underdeveloped_karelia = {
+			picture = underdeveloped_karelia
+			
+			allowed = {
+				tag = FIN
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		FIN_finland_victorious = {
+			ledger = army
+			picture = triumphant_will
+			
+			allowed = {
+				tag = FIN
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = -0.15
+			}
+		}
+	}
+}
