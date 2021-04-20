@@ -3,8 +3,9 @@ state={
 	name="STATE_969"
 
 	history={
-		owner = JAP
+		owner = OCJ
 		add_core_of = JAP
+		add_core_of = OCJ
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

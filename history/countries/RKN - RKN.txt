@@ -134,9 +134,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Hermann Balck"
-	desc = "POLITICS_HERMANN_BALCK_DESC"
-	picture = "RKN_Hermann_Balck.dds"
+	name = "Karl Pfeffer-Wildenbruch"
+	desc = "POLITICS_KARL_PFEFFER-WILDENBRUCH_DESC"
+	picture = "RKN_Karl_Pfeffer-Wildenbruch.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {

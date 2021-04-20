@@ -69,6 +69,7 @@ LES = "countries/Lesotho.txt"
 SWA = "countries/Swaziland.txt"
 SMA = "countries/Somaliland.txt"
 SAO = "countries/Sao Tome.txt"
+OCJ = "countries/Occupied Japan.txt"
 
 ##Pacific##
 ETM = "countries/East Timor.txt"

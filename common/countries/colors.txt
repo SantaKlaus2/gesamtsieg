@@ -963,3 +963,7 @@ CRE = {
 	color = rgb { 224 249 31 }
 	color_ui = rgb { 224 249 31 }
 }
+OCJ = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
