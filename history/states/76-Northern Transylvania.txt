@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = ROM
+		owner = HUN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -19,6 +19,7 @@ state={
 			3696 1 
 		}
 		add_core_of = ROM
+		add_core_of = HUN
 		add_core_of = TRA
 	}
 
