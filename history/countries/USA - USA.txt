@@ -125,22 +125,9 @@ give_guarantee = URG
 	
 	#adding ministers
 	add_ideas = {
-		USA_robert_taft
-		carl_spaatz
-		jimmy_doolittle
-		army_ordnance_department
-		general_electric
-		robert_goddard
-		USA_war_department
-		USA_intervention_in_europe
-		#laws
-		isolation
-		volunteer_only
-		great_depression_3
-		new_deal
-	}
-	remove_ideas = {
-		great_depression
+		partial_mobilization
+		limited_conscription
+		export_focus
 	}
 
 	#focuses
@@ -271,11 +258,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	partial_mobilization
+	limited_conscription
+	export_focus
+	USA_memories_of_operation_downfall
 }
 
 
