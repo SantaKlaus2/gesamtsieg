@@ -24,11 +24,7 @@ bookmarks = {
 			history = USA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas = {
-				home_of_the_free
-				great_depression_3
-				air_war_plans_division_focus
-				USA_war_department
-				new_deal
+				USA_memories_of_operation_downfall
 			}
 			focuses = {
 				USA_war_plan_black
