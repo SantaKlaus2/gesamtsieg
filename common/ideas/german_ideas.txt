@@ -17,7 +17,7 @@ ideas = {
 		}
 
 		GER_internal_rivalries = {
-			picture = chi_war_of_resistance
+			picture = spr_masters_of_our_own_fate
 			allowed = {
 				always = no
 			}
