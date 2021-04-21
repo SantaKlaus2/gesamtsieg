@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+
+		RKD_the_wild_west_of_the_reich = {
+			picture = wild_west_reich
+			
+			allowed = {
+				tag = RKD
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor  = -0.15
+				army_org = -0.2
+			}
+		}
+	}
+}

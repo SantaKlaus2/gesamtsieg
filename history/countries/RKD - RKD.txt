@@ -131,6 +131,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+	RKD_the_wild_west_of_the_reich
 }
 
 create_country_leader = {
