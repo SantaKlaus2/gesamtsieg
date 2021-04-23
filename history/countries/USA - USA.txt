@@ -125,7 +125,7 @@ give_guarantee = URG
 	
 	#adding ministers
 	add_ideas = {
-		partial_mobilization
+		partial_economic_mobilisation
 		limited_conscription
 		export_focus
 	}

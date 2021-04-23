@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+
+		ITA_lions_led_by_donkeys = {
+			picture = tur_disorganised_armed_forces
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				army_org_factor = -0.1
+			}
+		}
+
+		ITA_undersized_air_force = {
+			picture = generic_air_payment
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				air_fuel_consumption_factor = -0.05
+				air_agility_factor = -0.07
+				air_accidents_factor = 0.07
+				air_weather_penalty = 0.07
+			}
+		}
+	}
+}
