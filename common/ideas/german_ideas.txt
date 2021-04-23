@@ -1,9 +1,9 @@
 ideas = {
 	country = {
 
-		GER_victors_of_the_second_world_war = {
+		GER_masters_of_europe = {
 			ledger = army
-			picture = triumphant_will
+			picture = GER_masters_of_europe
 			allowed = {
 				always = no
 			}
@@ -11,13 +11,13 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				experience_gain_army_factor = -0.2
-				production_speed_arms_factory_factor = -0.2
+				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}
 
-		GER_internal_rivalries = {
-			picture = spr_anti_fascist_crusade
+		GER_undefeated_in_battle = {
+			picture = GER_undefeated_in_battle
 			allowed = {
 				always = no
 			}
@@ -25,8 +25,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				political_power_gain = -0.15
-				political_advisor_cost_factor = 0.25
+				conscription_factor = 0.10
 			}
 		}
 

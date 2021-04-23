@@ -358,8 +358,8 @@ add_to_faction = GER
 
 
 add_ideas = {
-	GER_victors_of_the_second_world_war
-	GER_internal_rivalries
+	GER_masters_of_europe
+	GER_undefeated_in_battle
 	GER_dreams_of_a_thousand_year_reich
 	limited_exports
 	limited_conscription
