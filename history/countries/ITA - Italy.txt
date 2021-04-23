@@ -6,8 +6,9 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
+	#replace_me_with_current_monarch_of_italy
+	ITA_lions_led_by_donkeys
+	ITA_undersized_air_force
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
