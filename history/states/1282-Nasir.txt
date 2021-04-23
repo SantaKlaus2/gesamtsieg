@@ -4,7 +4,7 @@ state={
 	name="STATE_1282"
 	
 	history={
-		owner = ENG
+		owner = ITA
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 3
