@@ -124,47 +124,13 @@ set_popularities = {
 	neutrality = 60
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
 create_country_leader = {
-	name = "Konstantin Päts"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
+	name = "August Sabbe"
+	desc = "POLITICS_AUGUST_SABBE_DESC"
+	picture = "EST_August_Sabbe.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		#
-	}
-}
-
-
-### VARIANTS ###
-# 1939 Start #
-1939.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Submarines #
-		create_equipment_variant = {
-			name = "Kalev Class"				
-			type = ship_hull_submarine_2
-			name_group = EST_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = ship_mine_layer_sub
-			}
-		}
 	}
 }
