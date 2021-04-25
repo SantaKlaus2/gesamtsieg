@@ -967,3 +967,11 @@ OCJ = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
+DKZ = {
+	color = rgb { 192 192 192 }
+	color_ui = rgb { 192 192 192 }
+}
+KOM = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}

@@ -63,6 +63,7 @@ MCU = "countries/Macau.txt"
 YAK = "countries/Yakut.txt"
 ROK = "countries/South Korea.txt"
 DPK = "countries/North Korea.txt"
+DKZ = "countries/Democratic Kazakhstan.txt"
 
 ##Africa##
 LES = "countries/Lesotho.txt"
@@ -80,3 +81,4 @@ MRS = "countries/Marshall.txt"
 NAU = "countries/Nauru.txt"
 
 ##Russian Warlords##
+KOM = "countries/Komi.txt"
