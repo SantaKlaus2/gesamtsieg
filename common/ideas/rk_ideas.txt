@@ -1,0 +1,110 @@
+ideas = {
+	country = {
+		rk_local_integration = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_manpower_bonus
+			modifier = {
+				political_power_cost = 0.15
+				army_speed_factor = 0.05
+				army_morale_factor = 0.025
+				conscription = 0.025
+			}
+		}
+		
+		rk_new_construction_methods = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		
+		rk_military_industrial_complex = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				}
+				equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		rk_resources = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_exploit_mines
+			modifier = {
+				local_resources_factor = 0.2
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		rk_export = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_flexible_foreign_policy2
+			modifier = {
+				trade_opinion_factor = 0.5
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		rk_colonial_heer = {
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_war_preparation
+			modifier = {
+				army_attack_factor = 0.07
+				army_defence_factor = 0.07
+				attrition = -0.05
+			}
+		}
+		
+	}
+}
