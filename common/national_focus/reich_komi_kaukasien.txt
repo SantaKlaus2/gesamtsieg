@@ -1,0 +1,519 @@
+﻿focus_tree = {
+	id = rk_kaukasien_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+		add = 10
+		tag = RKK
+		}
+	
+	}
+	
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	initial_show_position = {
+		focus = rkk_army_1
+	}
+
+######################
+#### ARMY FOCUSES ####
+######################
+
+	focus = {
+		id = rkk_army_1
+		icon = GFX_focus_ger_oppose_hitler
+		x = 5
+		y = 0
+		cost = 8
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = rkk_army_2
+		icon = GFX_focus_generic_manpower  
+		prerequisite = { focus = rkk_army_1 } 
+		x = -2
+		y = 1
+		relative_position_id = rkk_army_1
+		cost = 5.79
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rk_local_integration
+		}
+	}
+	
+	focus = {
+		id = rkk_army_3
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = rkk_army_1 }
+		x = 1
+		y = 1
+		relative_position_id = rkk_army_1
+		cost = 5.79
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 40
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GER
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 200
+				producer = GER
+			}
+		
+		}
+	}
+	
+	focus = {
+		id = rkk_army_air
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = rkk_army_3 }
+		x = 2
+		y = 1
+		relative_position_id = rkk_army_3
+		cost = 6
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_air_2
+		icon = GFX_focus_usa_escort_fighters
+		prerequisite = { focus = rkk_army_air }
+		x = 0
+		y = 1
+		relative_position_id = rkk_army_air
+		cost = 7
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cas_bonus
+				bonus = 1.0
+				uses = 1
+				category = cas_bomber
+			}
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_tanx
+		icon = GFX_focus_generic_army_tanks2
+		prerequisite = { focus = rkk_army_3 }
+		x = 0
+		y = 2
+		relative_position_id = rkk_army_3
+		cost = 7
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = tank_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = rkk_army_tanx }
+		prerequisite = { focus = rkk_army_tanx }
+		x = 0
+		y = 1
+		relative_position_id = rkk_army_3 
+		cost = 6
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = moto_bonus
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_4
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = rkk_army_2 }
+		x = -1
+		y = 1
+		relative_position_id = rkk_army_2
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = arty_bonus
+				bonus = 1.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = antitank_bonus
+				bonus = 1.5
+				uses = 1
+				category = cat_anti_tank
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_5
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = rkk_army_2 }
+		x = 1
+		y = 1
+		relative_position_id = rkk_army_2
+		cost = 5 
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = support_bonus
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_army_6
+		icon = GFX_focus_generic_license_production
+		prerequisite = { focus = rkk_army_5 }
+		prerequisite = { focus = rkk_army_4 }
+		x = -1
+		y = 1
+		relative_position_id = rkk_army_5
+		cost = 5.79
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rk_colonial_heer
+		}
+	}
+	
+############################
+#### INDUSTRIAL FOCUSES ####
+############################
+	focus = {
+		id = rkk_industry_1
+		icon = GFX_goal_generic_production
+		x = 13
+		y = 0
+		cost = 8
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = rk_industry
+				bonus = 1.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_infra
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = rkk_industry_1 }
+		x = 1
+		y = 1
+		relative_position_id = rkk_industry_1
+		cost = 6
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+			prioritize = { 234 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+			prioritize = { 237 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+			prioritize = { 931 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_resources
+		icon = GFX_focus_generic_steel
+		prerequisite = { focus = rkk_industry_1 }
+		x = -1
+		y = 2
+		relative_position_id = rkk_industry_1
+		cost = 6
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = rk_export
+				bonus = 1.0
+				uses = 1
+				category = excavation_tech
+			}
+			add_ideas = rk_resources
+			random_owned_controlled_state = {
+			prioritize = { 235 }
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_export
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = rkk_industry_resources }
+		x = -1
+		y = 1
+		relative_position_id = rkk_industry_resources
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_ideas = rk_export
+			random_owned_controlled_state = {
+			prioritize = { 229 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_civ
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = rkk_industry_infra }
+		x = 0
+		y = 1
+		relative_position_id = rkk_industry_infra
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+			prioritize = { 238 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+			prioritize = { 1121 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1 
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = rkk_industry_con
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = rkk_industry_infra focus = rkk_industry_resources }
+		x = 0
+		y = 4
+		relative_position_id = rkk_industry_1
+		cost = 8
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rk_new_construction_methods
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_mil
+		icon = GFX_goal_generic_construct_mil_factory 
+		prerequisite = { focus = rkk_industry_con }
+		x = 1
+		y = 1
+		relative_position_id = rkk_industry_con
+		cost = 6
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rk_military_industrial_complex
+			random_owned_controlled_state = {
+			prioritize = { 233 }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+			}
+			}
+			random_owned_controlled_state = {
+			prioritize = { 229 }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+			}
+			}
+		}
+	}
+	
+	focus = {
+		id = rkk_industry_research
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = rkk_industry_con } 
+		x = -1
+		y = 1
+		relative_position_id = rkk_industry_con
+		cost = 6 
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = electronics
+			}
+		}
+	}
+
+	
+	
+}
