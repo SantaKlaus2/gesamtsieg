@@ -657,7 +657,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 206
 		}
-		location = 9277
+		location = 9633
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -667,7 +667,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 208
 		}
-		location = 9277
+		location = 11618
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -677,7 +677,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 9277
+		location = 6673
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
@@ -694,13 +694,13 @@ units = {
 	}
 	division= {	
 		name = "1. Kavallerie-Brigade"
-		location = 11386
+		location = 11301
 		division_template = "Kavallerie-Brigade"
 		start_experience_factor = 0.2
 	}
 	division= {	
 		name = "Grenzschutz-Abschnitts-Kommando 15"
-		location = 11386
+		location = 11301
 		division_template = "Sicherungs-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -731,13 +731,13 @@ units = {
 				is_name_ordered = yes
 				name_order = 61
 		}
-		location = 6375
+		location = 3544
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "Panzer-Division Kempf"
-		location = 6375
+		location = 3544
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.2
 	}
@@ -862,7 +862,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 11260
+		location = 13292
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -881,7 +881,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 50
 		}
-		location = 9252
+		location = 321
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -891,7 +891,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 11288
+		location = 3230
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
@@ -900,7 +900,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 11288
+		location = 6588
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
@@ -909,7 +909,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 20
 		}
-		location = 11288
+		location = 3295
 		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
@@ -921,7 +921,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 252
 		}
-		location = 6576
+		location = 11542
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -933,7 +933,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 257
 		}
-		location = 6576
+		location = 11542
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -945,7 +945,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 258
 		}
-		location = 6576
+		location = 11542
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -1010,7 +1010,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 30
 		}
-		location = 9470
+		location = 3631
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -1025,7 +1025,7 @@ units = {
 	}
 	division= {	
 		name = "Grenzschutz-Abschnitts-Kommando 14"
-		location = 444
+		location = 671
 		division_template = "Sicherungs-Division"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
 		start_experience_factor = 0.1
@@ -1289,7 +1289,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 581
+		location = 3654
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
 	}
@@ -1298,7 +1298,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 9
 		}
-		location = 581
+		location = 3654
 		division_template = "Leichte Division"
 		start_experience_factor = 0.3
 	}
