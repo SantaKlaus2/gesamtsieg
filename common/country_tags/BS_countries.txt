@@ -82,3 +82,6 @@ NAU = "countries/Nauru.txt"
 
 ##Russian Warlords##
 KOM = "countries/Komi.txt"
+TRS = "countries/Transamur.txt"
+PRK = "countries/Krasnoyarsk.txt"
+FBA = "countries/Far Eastern Black Army.txt"

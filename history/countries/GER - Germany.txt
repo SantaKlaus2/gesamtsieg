@@ -353,7 +353,7 @@ set_popularities = {
 	communism = 20
 }
 
-create_faction = Axis
+create_faction = Eisenpakt
 add_to_faction = GER
 
 
