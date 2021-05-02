@@ -1,0 +1,73 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+	
+	initial_show_position = {
+		focus = ger_footsteps
+	}
+		
+	focus = {
+		id = ger_footsteps
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 10
+		y = 0
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			add_political_power = 2
+		}
+	}
+	
+	focus = {
+		id = ger_volkshalle
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ger_footsteps }
+		x = 0
+		y = 1
+		relative_position_id = ger_footsteps
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	
+	focus = {
+		id = ger_thousand_year_reich
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = ger_volkshalle }
+		x = 0
+		y = 2
+		relative_position_id = ger_footsteps
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			add_political_power = 8
+		}
+	}
+	
+}
