@@ -1,4 +1,4 @@
-version="1.10.4"
+version="1.10.5"
 tags={
 	"Alternative History"
 	"Map"
@@ -12,4 +12,4 @@ tags={
 replace_path="map"
 replace_path="history/states"
 name="Gesamtsieg"
-supported_version="1.10.4"
+supported_version="1.10.5"
