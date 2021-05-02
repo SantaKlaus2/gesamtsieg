@@ -1,9 +1,18 @@
 ideas = {
 	country = {
 		rk_local_integration = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
@@ -18,9 +27,18 @@ ideas = {
 		}
 		
 		rk_new_construction_methods = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
@@ -34,9 +52,18 @@ ideas = {
 		}
 		
 		rk_military_industrial_complex = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
@@ -61,9 +88,18 @@ ideas = {
 		}
 		
 		rk_resources = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
@@ -76,9 +112,18 @@ ideas = {
 		}
 		
 		rk_export = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
@@ -91,9 +136,18 @@ ideas = {
 		}
 		
 		rk_colonial_heer = {
-			available = {
-			}
-			cancel = {
+			allowed = {
+				OR = {
+					tag = RKB
+					tag = RKD
+					tag = RKK
+					tag = RKM
+					tag = RKH
+					tag = RKN
+					tag = RKO
+					tag = RKU
+					tag = RKL
+				}
 			}
 			allowed_civil_war = {
 				always = no
