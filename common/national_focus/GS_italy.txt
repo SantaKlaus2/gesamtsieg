@@ -1,0 +1,32 @@
+﻿focus_tree = {
+	id = italian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = ita_addis_ababa_cairo_autostrada
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 8
+		y = 0
+		cost = 6
+		ai_will_do = {
+			base = 1
+		}
+		completion_reward = {
+			remove_ideas = ITA_highway_construction
+			add_stability = 0.05
+		}
+	}
+
+}

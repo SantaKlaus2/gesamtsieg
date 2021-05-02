@@ -9,6 +9,7 @@ add_ideas = {
 	#replace_me_with_current_monarch_of_italy
 	ITA_lions_led_by_donkeys
 	ITA_undersized_air_force
+	ITA_highway_construction
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -124,6 +125,16 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1198
+	
+	set_autonomy = {
+		target = MNT
+		autonomous_state = autonomy_puppet
+	}
+	
+	set_autonomy = {
+		target = ALB
+		autonomous_state = autonomy_puppet
+	}
 	
 	#white_peace = ETH
 	if = {

@@ -9,19 +9,30 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	fascism = 100
 }
 
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
+create_country_leader = {
+	name = "Alberto Pariani"
+	desc = "POLITICS_ALBERTO_PARIANI_DESC"
+	picture = "gfx/leaders/ITA/Portrait_Albania_Alberto_Pariani.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "King Zog"
 	desc = "POLITICS_KING_ZOG_DESC"
