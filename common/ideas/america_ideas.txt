@@ -4,7 +4,7 @@ ideas = {
 		USA_memories_of_operation_downfall = {
 			picture = the_war_to_end_all_wars
 			allowed = {
-				always = no
+				tag = USA
 			}
 			allowed_civil_war = {
 				always = no

@@ -4,7 +4,7 @@ ideas = {
 		ITA_lions_led_by_donkeys = {
 			picture = tur_disorganised_armed_forces
 			allowed = {
-				always = no
+				tag = ITA
 			}
 			allowed_civil_war = {
 				always = no
@@ -17,7 +17,7 @@ ideas = {
 		ITA_undersized_air_force = {
 			picture = generic_air_payment
 			allowed = {
-				always = no
+				tag = ITA
 			}
 			allowed_civil_war = {
 				always = no
