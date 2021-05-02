@@ -2,10 +2,9 @@ ideas = {
 	country = {
 
 		GER_masters_of_europe = {
-			ledger = army
 			picture = GER_masters_of_europe
 			allowed = {
-				always = no
+				tag = GER
 			}
 			allowed_civil_war = {
 				always = no
@@ -19,7 +18,7 @@ ideas = {
 		GER_undefeated_in_battle = {
 			picture = GER_undefeated_in_battle
 			allowed = {
-				always = no
+				tag = GER
 			}
 			allowed_civil_war = {
 				always = no
@@ -30,10 +29,9 @@ ideas = {
 		}
 
 		GER_dreams_of_a_thousand_year_reich = {
-			ledger = army
 			picture = generic_fascism_drift_2
 			allowed = {
-				always = no
+				tag = GER
 			}
 			allowed_civil_war = {
 				always = no
