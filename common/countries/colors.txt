@@ -82,8 +82,10 @@ GRE = {
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
-	color = rgb { 149 45 102 }
-	color_ui = rgb { 194 59 133 }
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+	#color = rgb { 149 45 102 }
+	#color_ui = rgb { 194 59 133 }
 }
 NOR = {
 	color = rgb { 99 63 63 }
@@ -984,6 +986,14 @@ PRK = {
 	color_ui = rgb { 0 127 14 }
 }
 FBA = {
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
+}
+SRG = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+VGR = {
 	color = rgb { 92 92 92 }
 	color_ui = rgb { 92 92 92 }
 }

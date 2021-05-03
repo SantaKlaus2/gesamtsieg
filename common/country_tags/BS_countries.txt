@@ -81,7 +81,9 @@ MRS = "countries/Marshall.txt"
 NAU = "countries/Nauru.txt"
 
 ##Russian Warlords##
+SRG = "countries/Soviet Reclamation Government.txt"
 KOM = "countries/Komi.txt"
 TRS = "countries/Transamur.txt"
 PRK = "countries/Krasnoyarsk.txt"
 FBA = "countries/Far Eastern Black Army.txt"
+VGR = "countries/Volga German Republic.txt"

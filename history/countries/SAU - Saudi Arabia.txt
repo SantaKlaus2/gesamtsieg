@@ -70,9 +70,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Abdulaziz Ibn Saud"
-	desc = "POLITICS_ABDULAZIZ_DESC"
-	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+	name = "Saud IV"
+	desc = "POLITICS_SAUD_IV_DESC"
+	picture = "SAU_Saud_IV.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

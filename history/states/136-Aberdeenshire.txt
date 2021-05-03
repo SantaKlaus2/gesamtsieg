@@ -12,7 +12,7 @@ state={
 
 	history={
 		add_core_of = SCO
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 6
 			dockyard = 2

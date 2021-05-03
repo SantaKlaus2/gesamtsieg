@@ -10,7 +10,7 @@ state={
 
 	history={
 		add_core_of = SCO
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 4
 			anti_air_building = 2
